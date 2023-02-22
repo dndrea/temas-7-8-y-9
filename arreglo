@@ -1,0 +1,19 @@
+int i=0;
+	String[] uniDimensional;{
+	uniDimensional=new String[5];
+	uniDimensional[0]="Omar";
+	uniDimensional[1]="Susana";
+	uniDimensional[2]="Alex";
+	uniDimensional[3]="Bryant";
+	uniDimensional[4]="Isaac";
+	for(int i=0; i<uniDimensional.length; i++) {
+		System.out.println(uniDimensional[i]);
+	}
+	
+	
+}
+	public String toString(){
+		return uniDimensional[i] ;
+	}
+	
+}
